@@ -1,0 +1,1 @@
+docker service create --name mysrv-httpd --replicas 4 -p 80:80 httpd
